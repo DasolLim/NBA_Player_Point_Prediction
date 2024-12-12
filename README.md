@@ -17,6 +17,7 @@ ultimately contribute to increasing their overall assets.
 ### Model Development
 _The project explored three machine learning algorithms to identify the most suitable model for player performance
 prediction:_
+
 **1) Linear Regression:** Used as a baseline for its simplicity
 and interpretability. Logarithmic transformations were applied
 to capture non-linear relationships in the data.
@@ -35,13 +36,16 @@ tuning was conducted to optimize performance.
 ## Model Training and Validation
 _To ensure generalizability and prevent overfitting, the
 following evaluation protocols were applied:_
+
 **1) Cross-Validation:** A 5-fold cross-validation method
 was applied to assess the model's performance across multiple
 data subsets, ensuring its robustness and reliability.
+
 **2) Evaluation Metrics:** The model's performance was
 evaluated using precision, recall, F1 score, and accuracy. These
 metrics offered a thorough understanding of its ability to
 effectively balance true positives and false positives.
+
 **3) Hyperparameter Tuning:** Important parameters,
 including the number of estimators, maximum depth, and
 learning rate, were fine-tuned using grid search to improve the
